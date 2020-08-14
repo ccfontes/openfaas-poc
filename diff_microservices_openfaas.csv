@@ -1,0 +1,25 @@
+, K8s Microservices, OpenFaaS
+Container HTTP servers, managed by you, managed by the platform
+Service glue, dev+devops, dev / platform workflows
+Compute driven by, Restful API calls, events
+Dev time, more, less
+Hats, dev + devops, dev
+Service boilerplate, dev, one command
+Deploy, devops, one command
+Pipeline patterns, require discipline, clearer
+Scaling, less granular / unaware of deps / devops, more granular / auto / aware of deps
+Infra complexity, more, less 
+Operational costs, more, less
+Infra costs, more, less through more granular scaling
+Commercial support, scattered, yes
+Community support, scattered, "yes, ~250 contributors"
+Metrics, dev + devops, out-of-the-box
+License, multiple, MIT (permissive) 
+State, you decide, stateless
+External event pub-sub, SDK, External CloudEvent brokers
+Lock-in, no, "yes, but not going anywhere soon with ~250 contributors"
+Standardization, mature, no – CNCF WIP
+Security, you control, at the  mercy of the platform
+Documentation in Japanese, widespread, "only ~270 results in Qiita, but most used general purpose FaaS in Japan"
+DB connection pooling, yes, no
+Mongodb / RDBMS operation log collection, yes, no
