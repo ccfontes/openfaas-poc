@@ -12,7 +12,7 @@ Infra complexity, more, less, OpenFaaS
 Operational costs, more, less, OpenFaaS
 Infra costs, more, less through more granular scaling, OpenFaaS
 Commercial support, scattered, yes, OpenFaaS
-Community support, scattered, "yes, ~250 contributors", OpenFaaS
+Community support, scattered, "yes, ~270 contributors", OpenFaaS
 Metrics, dev + devops, out-of-the-box, OpenFaaS
 License, multiple, MIT (permissive), OpenFaaS
 State, you decide, stateless, Neutral
@@ -20,6 +20,6 @@ External event pub-sub, SDK, External CloudEvent brokers, K8s Microservices
 Lock-in, no, "yes, but not going anywhere soon with ~270 contributors", K8s Microservices
 Standardization, mature, no – CNCF WIP, K8s Microservices
 Security, you control, at the  mercy of the platform, K8s Microservices
-Documentation in Japanese, widespread, "only ~270 results in Qiita, but most used general purpose FaaS in Japan", K8s Microservices
+Documentation in Japanese, widespread, "only ~250 results in Qiita, but most used general purpose FaaS in Japan", K8s Microservices
 DB connection pooling, yes, no, K8s Microservices
 Mongodb / RDBMS operation log collection, yes, no, K8s Microservices
