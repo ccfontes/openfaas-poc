@@ -2,7 +2,7 @@
 Quote from [docs.openfaas.com](https://docs.openfaas.com/):
 > OpenFaaS® makes it easy for developers to deploy event-driven functions and microservices to Kubernetes without repetitive, boiler-plate coding. Package your code or an existing binary in a Docker image to get a highly scalable endpoint with auto-scaling and metrics.
 
-In this tutorial we're going to explore deploying OpenFaaS® to k8s, and creating an HTTP endpoint serving HTML.
+In this tutorial we're going to explore deploying OpenFaaS to k8s, and creating an HTTP endpoint serving HTML.
 
 # Requirements
 - Around **15 minutes** of your time
@@ -19,7 +19,7 @@ brew install kubectl faas-cli
 curl -SLsf https://dl.get-arkade.dev/ | sh
 ```
 
-## Deploy OpenFaaS® to k8s cluster
+## Deploy OpenFaaS to k8s cluster
 ```sh
 ark install openfaas --load-balancer false
 ```
@@ -35,7 +35,7 @@ Expose gateway to `faas-cli up` command:
 export OPENFAAS_URL=http://127.0.0.1:8080
 ```
 
-## Login to OpenFaaS®
+## Login to OpenFaaS
 ```sh
 PASSWORD=$(kubectl get secret -n openfaas basic-auth -o jsonpath="{.data.basic-auth-password}" | base64 --decode; echo)
 echo -n $PASSWORD | faas-cli login --username admin --password-stdin
@@ -76,13 +76,13 @@ http://127.0.0.1:8080/function/showhtml
 
 # Wrap up
 
-## If you liked OpenFaaS®
+## If you liked OpenFaaS
 ```sh
 echo 'export OPENFAAS_URL=http://127.0.0.1:8080\n' >> .zshrc
 ```
 
-## If you didn't like OpenFaaS®
-Undeploy OpenFaaS® from k8s cluster:
+## If you didn't like OpenFaaS
+Undeploy OpenFaaS from k8s cluster:
 ```sh
 kubectl delete namespace openfaas
 ```
