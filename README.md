@@ -44,7 +44,7 @@ echo -n $PASSWORD | faas-cli login --username admin --password-stdin
 # Development
 
 ## Pull down a template function
-Replace `<dockerhub_id>` with your Docker user name, then run:
+Replace `<dockerhub_id>` below, with your Docker user name, then run:
 ```sh
 faas-cli new --lang python3 --prefix <dockerhub_id> showhtml
 ```
